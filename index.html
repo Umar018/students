@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talabalar Ro'yxati</title>
+</head>
+<body>
+    <h1>Talabalar Ro'yxati</h1>
+
+    <h2>Yangi Talaba Qo'shish</h2>
+    <form>
+        <label for="name">Ism:</label>
+        <input type="text" id="name" name="name">
+        <label for="surname">Familiya:</label>
+        <input type="text" id="surname" name="surname">
+        <label for="age">Yosh:</label>
+        <input type="number" id="age" name="age">
+        <button type="submit">Qo'shish</button>
+    </form>
+
+    <h2>Talabalar Ro'yxati</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Ism</th>
+                <th>Familiya</th>
+                <th>Yosh</th>
+                <th>Harakatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jasur</td>
+                <td>Qosimov</td>
+                <td>20</td>
+                <td>
+                    <button type="button">Tahrirlash</button>
+                    <button type="button">O'chirish</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ali</td>
+                <td>Valiyev</td>
+                <td>22</td>
+                <td>
+                    <button type="button">Tahrirlash</button>
+                    <button type="button">O'chirish</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Talaba Tahrirlash</h2>
+    <form>
+        <label for="edit-id">ID:</label>
+        <input type="number" id="edit-id" name="edit-id">
+        <label for="edit-name">Ism:</label>
+        <input type="text" id="edit-name" name="edit-name">
+        <label for="edit-surname">Familiya:</label>
+        <input type="text" id="edit-surname" name="edit-surname">
+        <label for="edit-age">Yosh:</label>
+        <input type="number" id="edit-age" name="edit-age">
+        <button type="submit">Yangilash</button>
+    </form>
+</body>
+</html>
